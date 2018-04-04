@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'ColorGenerator_Example' do
+  pod 'ColorGenerator', :path => '../'
+
+  target 'ColorGenerator_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
