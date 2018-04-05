@@ -7,11 +7,13 @@
 //
 
 import UIKit
+import ColorGenerator
 
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        self.view.backgroundColor = RandomColor.randomcolor()
         // Do any additional setup after loading the view, typically from a nib.
     }
 
